@@ -5,9 +5,11 @@ services:
     region: oregon
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python -m src.web_server
+    startCommand: PYTHONPATH=/opt/render/project/src python src/web_server.py
     healthCheckPath: /health
     envVars:
+      - key: PYTHONPATH
+        value: /opt/render/project/src
       - key: PYTHON_VERSION
         value: 3.11.0
       - key: SENDGRID_API_KEY
@@ -49,8 +51,10 @@ services:
     region: oregon
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python -m src.main
+    startCommand: PYTHONPATH=/opt/render/project/src python src/main.py
     envVars:
+      - key: PYTHONPATH
+        value: /opt/render/project/src
       - key: PYTHON_VERSION
         value: 3.11.0
       - key: SENDGRID_API_KEY
