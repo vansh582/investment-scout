@@ -24,8 +24,10 @@ services:
         sync: false
       - key: FRED_API_KEY
         sync: false
-      - key: NEWSLETTER_TIME
-        value: "09:00"
+      - key: NEWSLETTER_HOUR
+        value: "9"
+      - key: NEWSLETTER_MINUTE
+        value: "0"
       - key: TIMEZONE
         value: America/New_York
       - key: LOG_LEVEL
@@ -69,8 +71,10 @@ services:
         sync: false
       - key: FRED_API_KEY
         sync: false
-      - key: NEWSLETTER_TIME
-        value: "09:00"
+      - key: NEWSLETTER_HOUR
+        value: "9"
+      - key: NEWSLETTER_MINUTE
+        value: "0"
       - key: TIMEZONE
         value: America/New_York
       - key: LOG_LEVEL
