@@ -113,12 +113,16 @@ class ConfigurationManager:
         required_credentials = [
             ('redis_url', 'REDIS_URL'),
             ('database_url', 'DATABASE_URL'),
+            ('sendgrid_api_key', 'SENDGRID_API_KEY'),
+            ('user_email', 'USER_EMAIL'),
+        ]
+        
+        # Optional credentials (warn if missing but don't fail)
+        optional_credentials = [
             ('robinhood_username', 'ROBINHOOD_USERNAME'),
             ('robinhood_password', 'ROBINHOOD_PASSWORD'),
             ('finnhub_api_key', 'FINNHUB_API_KEY'),
             ('twelve_data_api_key', 'TWELVE_DATA_API_KEY'),
-            ('sendgrid_api_key', 'SENDGRID_API_KEY'),
-            ('user_email', 'USER_EMAIL'),
         ]
         
         for config_key, env_var in required_credentials:
