@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/base_api_client.py
+# hypothesis_version: 6.141.1
+
+[0.1, 1.0, 60.0, 'closed', 'half_open', 'open']

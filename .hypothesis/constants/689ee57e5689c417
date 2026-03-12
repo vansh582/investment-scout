@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/newsapi_client.py
+# hypothesis_version: 6.141.1
+
+[100, '+00:00', 'NewsAPI', 'Unknown', 'Z', 'apiKey', 'articles', 'description', 'en', 'from', 'language', 'name', 'ok', 'pageSize', 'publishedAt', 'q', 'sortBy', 'source', 'status', 'title', 'to', 'url']

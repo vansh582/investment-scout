@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/market_monitor.py
+# hypothesis_version: 6.141.1
+
+['active_symbols', 'cache_hits', 'failed_polls', 'failover_events', 'monitoring', 'successful_polls', 'total_polls', 'watchlist_symbols']

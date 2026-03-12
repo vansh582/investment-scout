@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/error_handler.py
+# hypothesis_version: 6.141.1
+
+[1.0, 400.0, 480.0, 1000, 1024, 'ErrorHandler', 'GracefulDegradation', 'MemoryMonitor', 'WriteQueue', 'component_degraded', 'component_recovered', 'connected', 'critical', 'db_connection_failed', 'db_operation_failed', 'disconnected', 'fallback_failed', 'memory_cleanup', 'network_retry', 'operation', 'operation_failed', 'queued_write_failed', 'rate_limit_wait', 'reconnecting', 'using_fallback', 'warning', 'write_queue_flushed', 'write_queue_full', 'write_queued']

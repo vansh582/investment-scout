@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/worldbank_client.py
+# hypothesis_version: 6.141.1
+
+[1000, 'FP.CPI.TOTL.ZG', 'NE.RSB.GNFS.CD', 'NY.GDP.MKTP.CD', 'NY.GDP.MKTP.KD.ZG', 'SL.UEM.TOTL.ZS', 'WorldBank', 'country', 'date', 'format', 'indicator', 'json', 'per_page', 'value', 'year']

@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: investment-scout
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/investment_scout
+      - SENDGRID_API_KEY=${SENDGRID_API_KEY}
+      - RECIPIENT_EMAIL=${RECIPIENT_EMAIL}
+      - YFINANCE_ENABLED=true
+      - FINNHUB_API_KEY=${FINNHUB_API_KEY}
+      - TWELVE_DATA_API_KEY=${TWELVE_DATA_API_KEY}
+      - NEWSAPI_KEY=${NEWSAPI_KEY}
+      - FRED_API_KEY=${FRED_API_KEY}
+      - NEWSLETTER_TIME=09:00
+      - TIMEZONE=America/New_York
+      - LOG_LEVEL=INFO
+    depends_on:
+      - redis
+      - postgres
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+
+  redis:
+    image: redis:7-alpine
+    container_name: investment-scout-redis
+    ports:
+      - "6379:6379"
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: investment-scout-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=investment_scout
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    restart: unless-stopped
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts/init_db.sql:/docker-entrypoint-initdb.d/init_db.sql
+
+volumes:
+  redis_data:
+  postgres_data:

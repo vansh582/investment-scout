@@ -1,0 +1,103 @@
+{
+  "name": "Investment Scout",
+  "description": "Automated market intelligence system for global stock markets with daily newsletters and real-time trading alerts",
+  "repository": "https://github.com/yourusername/investment-scout",
+  "keywords": [
+    "finance",
+    "stocks",
+    "trading",
+    "investment",
+    "market-intelligence",
+    "newsletter"
+  ],
+  "success_url": "/health",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "env": {
+    "SENDGRID_API_KEY": {
+      "description": "SendGrid API key for email delivery (free tier: 100 emails/day)",
+      "required": true
+    },
+    "RECIPIENT_EMAIL": {
+      "description": "Email address to receive newsletters and alerts",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "PostgreSQL connection URL (auto-provisioned by Heroku)",
+      "required": false
+    },
+    "REDIS_URL": {
+      "description": "Redis connection URL (auto-provisioned by Heroku)",
+      "required": false
+    },
+    "FINNHUB_API_KEY": {
+      "description": "Finnhub API key (free tier: 60 req/min)",
+      "required": false
+    },
+    "TWELVE_DATA_API_KEY": {
+      "description": "Twelve Data API key (free tier: 8 req/min)",
+      "required": false
+    },
+    "NEWSAPI_KEY": {
+      "description": "NewsAPI key (free tier: 100 req/day)",
+      "required": false
+    },
+    "FRED_API_KEY": {
+      "description": "FRED API key for economic data (free, unlimited)",
+      "required": false
+    },
+    "NEWSLETTER_TIME": {
+      "description": "Time to send daily newsletter (HH:MM format, Eastern Time)",
+      "value": "09:00",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Timezone for scheduling",
+      "value": "America/New_York",
+      "required": false
+    },
+    "LOG_LEVEL": {
+      "description": "Logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)",
+      "value": "INFO",
+      "required": false
+    },
+    "MAX_TRADING_ALERTS_PER_DAY": {
+      "description": "Maximum trading alerts per day",
+      "value": "3",
+      "required": false
+    },
+    "ACTIVE_STOCK_TTL": {
+      "description": "Cache TTL for active stocks (seconds)",
+      "value": "15",
+      "required": false
+    },
+    "WATCHLIST_STOCK_TTL": {
+      "description": "Cache TTL for watchlist stocks (seconds)",
+      "value": "60",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
+    },
+    {
+      "plan": "heroku-redis:mini",
+      "as": "REDIS"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/credential_manager.py
+# hypothesis_version: 6.141.1
+
+['DATABASE_URL', 'FINNHUB_API_KEY', 'REDIS_URL', 'ROBINHOOD_PASSWORD', 'ROBINHOOD_USERNAME', 'SENDGRID_API_KEY', 'TWELVE_DATA_API_KEY', 'USER_EMAIL', 'database_url', 'finnhub_api_key', 'redis_url', 'robinhood_password', 'robinhood_username', 'sendgrid_api_key', 'twelve_data_api_key', 'user_email']

@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/research_engine.py
+# hypothesis_version: 6.141.1
+
+[-1.0, -0.1, 0.0, 0.1, 1.0, 'beat', 'concern', 'debt_to_equity', 'decline', 'earnings', 'exceed', 'fall', 'free_cash_flow', 'gain', 'growth', 'loss', 'miss', 'pe_ratio', 'profit', 'published_at', 'revenue', 'risk', 'roe', 'sentiment', 'source', 'strong', 'success', 'summary', 'symbol', 'title', 'updated_at', 'url', 'weak']

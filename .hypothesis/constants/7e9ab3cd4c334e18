@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/industry_analyzer.py
+# hypothesis_version: 6.141.1
+
+[-1.0, -0.5, -0.3, 0.0, 0.3, 0.5, 0.6, 0.7, 1.0, 2.0, 'Competitive pressure', 'Consumer Staples', 'Contraction expected', 'Energy', 'Financial', 'Healthcare', 'Industrials', 'Market competition', 'Market presence', 'Materials', 'Real Estate', 'Technology', 'Utilities', 'advancement', 'bearish', 'boom', 'breakthrough', 'bullish', 'challenger', 'compliance', 'decline', 'declining', 'decrease', 'disruption', 'disruptive', 'drop', 'expansion', 'fall', 'follower', 'growing', 'growth', 'increase', 'innovation', 'law', 'leader', 'neutral', 'news_sentiment', 'niche', 'policy', 'regulation', 'regulatory', 'revolution', 'rule', 'slump', 'stable', 'surge', 'technological', 'technology', 'transformation']

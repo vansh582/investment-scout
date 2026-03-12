@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/models/__init__.py
+# hypothesis_version: 6.141.1
+
+['FinancialData', 'GlobalContext', 'NewsArticle', 'Newsletter', 'Quote', 'RiskLevel', 'Security', 'SignalType']

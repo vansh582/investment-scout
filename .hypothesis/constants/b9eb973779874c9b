@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/finnhub_client_scout.py
+# hypothesis_version: 6.141.1
+
+['%Y-%m-%d', 'Finnhub', 'Unknown', 'c', 'datetime', 'general', 'headline', 'sentiment', 'source', 'summary', 't', 'url']

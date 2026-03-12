@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/models/data_models.py
+# hypothesis_version: 6.141.1
+
+[30.0, 'Company Specifics:\n', 'Economic Factors:\n', 'Industry Dynamics:\n', 'Risk Factors:\n', 'buy', 'high', 'low', 'medium', 'sell']

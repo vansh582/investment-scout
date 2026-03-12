@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/web_scraper_client.py
+# hypothesis_version: 6.141.1
+
+[2.0, '/robots.txt', 'Accept', 'Accept-Language', 'User-Agent', 'WebScraper', 'content', 'en-US,en;q=0.5', 'footer', 'header', 'html.parser', 'nav', 'scraped_at', 'script', 'style', 'table', 'td', 'th', 'tr', 'url']

@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/twelve_data_client.py
+# hypothesis_version: 6.141.1
+
+[800, '1day', '1min', 'close', 'datetime', 'twelve_data_api_key', 'volume']

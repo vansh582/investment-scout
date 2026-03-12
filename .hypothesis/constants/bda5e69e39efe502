@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/fred_client.py
+# hypothesis_version: 6.141.1
+
+[1000, '%Y-%m-%d', '.', 'CPIAUCSL', 'DFF', 'FRED', 'GDP', 'UNRATE', 'api_key', 'date', 'error_message', 'file_type', 'json', 'limit', 'observation_end', 'observation_start', 'observations', 'series_id', 'seriess', 'value']

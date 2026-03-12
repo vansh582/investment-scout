@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/data_manager_scout.py
+# hypothesis_version: 6.141.1
+
+['ask', 'bid', 'exchange_timestamp', 'price', 'received_timestamp', 'symbol', 'volume']

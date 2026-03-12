@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/yfinance_client_scout.py
+# hypothesis_version: 6.141.1
+
+[120, '0', 'YFinance', 'ask', 'bid', 'currentPrice', 'debtToEquity', 'freeCashflow', 'netIncomeToCommon', 'regularMarketPrice', 'regularMarketVolume', 'returnOnEquity', 'totalRevenue', 'trailingPE', 'volume']

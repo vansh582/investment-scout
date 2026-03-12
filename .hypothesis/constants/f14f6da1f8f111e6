@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/rss_feed_client.py
+# hypothesis_version: 6.141.1
+
+['+00:00', './/item', 'Bloomberg', 'CNBC', 'MarketWatch', 'RSS Feed', 'RSSFeed', 'Reuters', 'User-Agent', 'Yahoo Finance', 'Z', 'atom', 'atom:entry', 'atom:link', 'atom:summary', 'atom:title', 'atom:updated', 'bloomberg', 'cnbc', 'description', 'feed', 'href', 'link', 'marketwatch', 'pubDate', 'reuters', 'rss', 'title', 'yahoo']

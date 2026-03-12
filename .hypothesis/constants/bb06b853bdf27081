@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/newsletter_generator.py
+# hypothesis_version: 6.141.1
+
+[100, '%B %d, %Y', '**', '-', '- ', '1.5', '</strong>', '<strong>', '=', 'Company Specifics:', 'DISCLAIMER', 'Economic Factors:', 'Geopolitical Events:', 'Global Context:', 'Industry Dynamics:', 'Investment Thesis:', 'MARKET OVERVIEW', 'Risk Factors:', 'Why Now:']

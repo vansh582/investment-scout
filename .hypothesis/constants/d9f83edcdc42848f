@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/main.py
+# hypothesis_version: 6.141.1
+
+['=', 'AAPL', 'AMD', 'AMZN', 'Energy', 'Financial', 'GOOGL', 'Healthcare', 'INTC', 'META', 'MSFT', 'NFLX', 'NVDA', 'TSLA', 'Technology', '__main__', 'alert_generated', 'alert_sent', 'app_ready', 'app_running', 'app_shutdown', 'app_start', 'app_start_error', 'app_startup', 'component_init', 'component_ready', 'component_shutdown', 'config_error', 'config_loaded', 'config_loading', 'finnhub_api_key', 'init_error', 'init_failed', 'scheduler_started', 'shutdown_signal', 'task_complete', 'task_error', 'task_execution', 'task_warning', 'twelve_data_api_key', 'web_server_info', '✓ Scheduler started']

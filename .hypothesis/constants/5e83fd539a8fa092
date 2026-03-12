@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/clients/yfinance_client.py
+# hypothesis_version: 6.141.1
+
+['1mo', 'Unknown', 'ask', 'averageVolume', 'average_volume', 'bid', 'debtToEquity', 'description', 'freeCashflow', 'industry', 'longBusinessSummary', 'longName', 'marketCap', 'market_cap', 'name', 'netIncomeToCommon', 'regularMarketPrice', 'returnOnEquity', 'sector', 'symbol', 'totalRevenue', 'trailingPE', 'volume', 'website']

@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/performance_tracker.py
+# hypothesis_version: 6.141.1
+
+[100, '-5.0', '0', '1', '100', '365', 'annualized_return', 'avg_gain_per_winner', 'avg_loss_per_loser', 'avg_return', 'closed', 'contribution', 'entry_date', 'first_entry', 'investment', 'last_entry', 'loss_rate', 'max_drawdown', 'num_recommendations', 'open', 'relative_performance', 'return_percent', 'sharpe_ratio', 'sp500_return_percent', 'status', 'symbol', 'total_return_percent', 'win_rate']

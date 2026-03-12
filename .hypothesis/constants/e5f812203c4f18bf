@@ -1,0 +1,4 @@
+# file: /Users/vanshgupta/Desktop/Vibe Coding/investment-scout/src/utils/trading_analyzer.py
+# hypothesis_version: 6.141.1
+
+[-0.3, 0.3, 100, 86400, '.', '. ', '0.01', '0.5', '1.0', '12.0', '2.0', '20.0', '25.0', '5.0', 'Buy signal detected', 'Sell signal detected', 'TradingAnalyzer', 'alert_limit_reached', 'buy_signal_detected', 'company_name', 'component', 'date', 'error', 'event', 'latency_seconds', 'max_alerts', 'max_alerts_per_day', 'minutes to days', 'price', 'sell_signal_detected', 'stale_data_rejected', 'stop_loss', 'symbol', 'target']
