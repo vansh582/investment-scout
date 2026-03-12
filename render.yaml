@@ -95,4 +95,3 @@ databases:
   - name: investment-scout-redis
     plan: free
     region: oregon
-    maxmemoryPolicy: allkeys-lru
