@@ -129,7 +129,7 @@ class WebServer:
         Args:
             debug: Enable debug mode (default: False)
         """
-        logger.info(f"Starting web server on port {self.port}")
+        logger.info("web_server_start", f"Starting web server on port {self.port}")
         self.app.run(host='0.0.0.0', port=self.port, debug=debug)
 
 
