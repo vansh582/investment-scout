@@ -85,7 +85,7 @@ class InvestmentScoutApp:
             logger.info("component_init", "Initializing Data Manager...")
             self.data_manager = DataManager(
                 redis_url=self.config.redis_url,
-                postgres_url=self.config.postgres_url
+                postgres_url=self.config.database_url
             )
             logger.info("component_ready", "Data Manager initialized")
             
@@ -174,7 +174,7 @@ class InvestmentScoutApp:
             # Initialize Performance Tracker
             logger.info("component_init", "Initializing Performance Tracker...")
             self.performance_tracker = PerformanceTracker(
-                postgres_url=self.config.postgres_url
+                postgres_url=self.config.database_url
             )
             logger.info("component_ready", "Performance Tracker initialized")
             
